@@ -1,3 +1,32 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+/* ---------nav start------------- */
+nav > ul > div > li {
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.nav-details {
+    display: flex;
+    margin-right: 70px;
+}
+.site-name li a {
+    font-size: 24px;
+    font-weight: 700;
+}
+.site-name li {
+    margin-left: 74px;
+}
+.nav-details li {
+    margin-right: 34px;
+}
+/* ---------nav end------------- */
