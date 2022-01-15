@@ -30,3 +30,38 @@ nav ul {
     margin-right: 34px;
 }
 /* ---------nav end------------- */
+
+/* --------start jurney start--------- */
+
+.start-jurney {
+    display: flex;
+    margin-left: 120px;
+    align-items: center;
+    margin-top: 40px;
+}
+.start-jurney-detail {
+    width: 582px;
+    height: 270px;
+}
+.subscribe-now {
+    background-color: #f35959;
+    color: #FFFFFF;
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px;
+    border-radius: 41px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+.fa-arrow-right {
+    margin-left: 7px;
+}
+.start-jurney-image img {
+    width: 440px;
+    height: 414px;
+    margin-left: 110px;
+    background-image: url("images/Circle-design.svg");
+}
+
+/* --------start jurney end--------- */
