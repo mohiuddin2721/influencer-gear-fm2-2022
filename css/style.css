@@ -65,3 +65,64 @@ nav ul {
 }
 
 /* --------start jurney end--------- */
+
+/* -----------Popular Collection start---------- */
+
+.popular-collection {
+    width: 1047px;
+    height: 1762px;
+    margin-top: 110px;
+    margin-left: 200px;
+    
+}
+.popular-collection-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+.all-device {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 50px;
+}
+.each-device {
+    width: 329px;
+    height: 490px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding-left: 25px;
+}
+.each-device > img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.price {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 0%;
+}
+.filled {
+    width: 8px;
+    height: 5px;
+    margin-right: 10px;
+    color: #FB8200;
+}
+.device-detail > p {
+    margin: 0%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.see-more > a {
+    text-decoration: none;
+    color: #f35959;
+    font-size: 20px;
+    position: absolute;
+    right: 170px;
+}
+
+
+/* -----------Popular Collection end---------- */
