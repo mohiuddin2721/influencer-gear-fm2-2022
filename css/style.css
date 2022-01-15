@@ -61,7 +61,10 @@ nav ul {
     width: 440px;
     height: 414px;
     margin-left: 110px;
-    background-image: url("images/Circle-design.svg");
+    transition: width 5s, height 5s, transform 5s;
+}
+.start-jurney-image img:hover {
+    transform: rotate(360deg);
 }
 
 /* --------start jurney end--------- */
@@ -70,7 +73,7 @@ nav ul {
 
 .popular-collection {
     width: 1047px;
-    height: 1762px;
+    height: 1720px;
     margin-top: 110px;
     margin-left: 200px;
     
@@ -124,5 +127,23 @@ nav ul {
     right: 170px;
 }
 
-
 /* -----------Popular Collection end---------- */
+
+footer {
+    background-color: #120E43;
+    height: 250px;
+    width: 1490px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+}
+footer h4 {
+    font-size: 24px;
+}
+.social-media-icon a {
+    color: #FFFFFF;
+    margin-left: 20px;
+    height: 32px;
+    width: 32px;
+}
+
