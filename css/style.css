@@ -131,6 +131,31 @@ nav ul {
 /* -----------Popular Collection end---------- */
 
 
+/* ---------------contact form-----------------  */
+
+.container {
+    background-color: rgb(251, 240, 251);
+    height: 250px;
+}
+.address {
+    text-align: center;
+}
+form h1 {
+    text-align: center;
+}
+form h1:hover {
+    color: royalblue;
+}
+.first-name:hover {
+    color: royalblue;
+    padding: 5px;
+}
+.last-name:hover {
+    color: royalblue;
+    padding: 5px;
+}
+
+
 /* --------footer start----------- */
 
 footer {
@@ -227,11 +252,17 @@ footer {
         margin-right: 50px;
         margin-top: 50px;
     }
-    footer {
+    .container {
         width: 100%;
         height: 300px;
         position: relative;
         top: 4500px;
+    }
+    footer {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        top: 4550px;
     }
 }
 
@@ -262,11 +293,17 @@ footer {
         grid-gap: 5px;
         position: relative;
     }
-    footer {
+    .container {
         width: 100%;
         height: 300px;
         position: relative;
         top: 1000px;
+    }
+    footer {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        top: 1050px;
     }
 }
 
