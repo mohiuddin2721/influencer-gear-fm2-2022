@@ -181,7 +181,7 @@ footer {
 
 /*------------- Mobile Device ----------*/
 
-@media only screen and (max-width: 687px) {
+@media only screen and (max-width: 688px) {
     html, body {
         overflow-x: hidden;
         max-width: 100%;
@@ -191,32 +191,84 @@ footer {
         display: none;
     }
     .start-jurney {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        /* grid-template-columns: repeat(1, 1fr); */
     }
     .start-jurney-detail {
-        width: 382px;
+        width: 100%;
         height: 370px;
+        margin-right: 10px;
     }
     .start-jurney-image img {
-        margin-left: 50px;
+        width: 100%;
+        position: relative;
+        margin-left: 0px;   
     }
     .popular-collection {
+        position: relative;
+        width: 100%;
         margin-left: 80px;
-        height: 300px;
+        height: 330px;
+        margin-top: 0%;
     }
     .all-device {
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-bottom: 10px;
+        justify-content: center;
     }
     .popular-collection-title {
         text-align: left;
+    }
+    .see-more {
+        position: relative;
+        margin-right: 50px;
+        margin-top: 50px;
     }
     footer {
         width: 100%;
         height: 300px;
         position: relative;
-        margin-top: 750px;
+        top: 4500px;
     }
 }
+
+/*------------- Tab Device ----------*/
+
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    html, body {
+        overflow-x: hidden;
+        max-width: 992px;
+        scroll-behavior: smooth;
+    }
+    .start-jurney {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin-left: 50px;
+    }
+    .popular-collection {
+        position: relative;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .all-device {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        position: relative;
+    }
+    footer {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        top: 1000px;
+    }
+}
+
+
 
